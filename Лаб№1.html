@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лабораторная работа №1</title>
+</head>
+<body>
+  <h1>Практическое занятие №1</h1>
+  <h2 id="toc">Содержание</h2>
+<ol>
+  <li><a href="#str">Структура документа</a></li>
+  <li><a href="#zag">Заголовки</a></li>
+  <li><a href="#text">Текстовая разметка</a>
+    <ol>
+      <li><a href="#fiz">Физическая разметка</a></li>
+      <li><a href="#log">Логическая разметка</a></li>
+    </ol>
+  </li>
+  <li><a href="#sp">Списки</a>
+    <ol>
+      <li><a href="#marksp">Маркированный список</a></li>
+      <li><a href="#numsp">Нумерованный список</a></li>
+    </ol>
+  </li>
+  <li><a href="#gypers">Гиперссылки</a>
+    <ol>
+      <li><a href="#list">Переход на другую страницу</a></li>
+      <li id="zakl2"><a href="#zakl">Закладка</a></li>
+      <li id="perehod"><a href="#zakl1">Переход на закладку</a></li>
+    </ol>
+  </li>
+</ol>
+<h2 id="str">Cтруктура документа <a href="#toc">&uarr;</a></h2>
+
+<pre>
+  &lt;html&gt;
+          &lt;head&gt;
+                  &lt;title&gt;Практическое знятие №1&lt;/title&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+                  Тело документа
+          &lt;/body&gt;
+  &lt;/html&gt;
+</pre>
+<h2 id="zag">Заголовки <a href="#toc">&uarr;</a></h2>
+  <h1>&lt;h1&gt;Заголовок 1 уровня&lt;/h1&gt;</h1>
+  <h2>&lt;h2&gt;Заголовок 2 уровня&lt;/h2&gt;</h2>
+  <h3>&lt;h3&gt;Заголовок 3 уровня&lt;/h3&gt;</h3>
+  <h4>&lt;h4&gt;Заголовок 4 уровня&lt;/h4&gt;</h4>
+  <h5>&lt;h5&gt;Заголовок 5 уровня&lt;/h5&gt;</h5>
+  <h6>&lt;h6&gt;Заголовок 6 уровня&lt;/h6&gt;</h6>
+
+  <h2 id="text">Текстовая разметка <a href="#toc">&uarr;</a></h2>
+
+  <h3 id="fiz">Физическая разметка</h3>
+  <p><i>&lt;i&gt;К этому фрагменту теста применен формат курсив&lt;/i&gt;</i></p>
+  <p><b>&lt;b&gt;К этому фрагменту теста применен формат полужирный&lt;/b&gt;</b></p>
+  <p><code>&lt;code&gt;...моноширный шрифт&lt;/code&gt;</code></p>
+  <p><big>&lt;big&gt;... размер шрифта больше обычного&lt;/big&gt;</big></p>
+  <p><small>&lt;small&gt;... размер текста меньше обычного&lt;/small&gt;</small></p>
+  <p><ins>&lt;ins&gt;подчеркнутый текст (подчеркнутый шрифт)&lt;/ins&gt;</ins></p>
+  <p><del>&lt;del&gt;зачеркнутый текст (зачеркнутый шрифт)&lt;/del&gt;</del></p>
+  <p><sub>&lt;sub&gt;нижний индекс&lt;/sub&gt;</sub></p>
+  <p><sup>&lt;sup&gt;верхний индекс&lt;/sup&gt;</sup></p>
+  <p style="font-size: 9px;">Текст высотой 9 пикселей</p>
+  <p style="font-size: 12px;">Текст высотой 12 пикселей</p>
+  <p style="font-size: 15px;">Текст высотой 15 пикселей</p>
+  <p style="font-size: 18px;">Текст высотой 18 пикселей</p>
+  
+  <h3 id="log">Логическая разметка</h3>
+  <p><strong>&lt;strong&gt;Выделяет особенно важный фрагмент текста&lt;/strong&gt;</strong></p>
+  <p><em>&lt;em&gt;Выделяет особенно важный фрагмент текста&lt;/em&gt;</em></p>
+  <p><var>&lt;var&gt;... является переменной&lt;/var&gt;</var></p>
+  <p><cite>&lt;cite&gt;Выделяет в тексте цитату&lt;/cite&gt;</cite></p>
+  <p><code>&lt;code&gt;Отмечает текс как некий программный код&lt;/code&gt;</code></p>
+  <p><samp>&lt;samp&gt;... служебные сообщения компьютера&lt;/samp&gt;</samp></p>
+  <p><kbd>&lt;kbd&gt;<... для инструкций&lt;/kbd&gt;</kbd></p>
+  <p><abbr title="">&lt;abbr&gt;Выделяет в тексте аббревиатуру&lt;/abbr&gt;</abbr></p>
+  <p><acronym title="">&lt;acronym&gt;Выделяет в тексте акроним&lt;/acronym&gt;</acronym></p>
+  <p><address>&lt;address&gt;Указывает автора документа и его адрес&lt;/address&gt;</address></p>
+  <p><del>&lt;del&gt;Выделяет удалённый текст в новой версии документа&lt;/del&gt;</del></p>
+  <p><ins>&lt;ins&gt;Выделяет новый текст в новой версии документа&lt;/ins&gt;</ins></p>
+  <p><q>&lt;q&gt;Выделяет в тексте цитату&lt;/q&gt;</q></p>
+
+  <h2 id="sp">Списки <a href="#toc">&uarr;</a></h2>
+  <h3 id="marksp">Маркированный список</h3>
+
+  <p><b>Список с маркерами в виде круга</b></p>
+  <ul>
+    <li>Первый пункт</li>
+    <li>Второй пункт</li>
+    <li>Третий пункт</li>
+  </ul>
+
+  <p><b>Список с маркерами в виде окружности</b></p>
+  <ul type="circle">
+    <li>Первый пункт</li>
+    <li>Второй пункт</li>
+    <li>Третий пункт</li>
+  </ul>
+
+  <p><b>Список с квадратными маркерами</b></p>
+  <ul type="square">
+    <li>Первый пункт</li>
+    <li>Второй пункт</li>
+    <li>Третий пункт</li>
+  </ul>
+
+  <h3 id="numsp">Нумерованный список</h3>
+
+  <p><b>Арабские числа</b></p>
+  <ol type="1">
+    <li>Первый пункт</li>
+    <li>Второй пункт</li>
+    <li>Третий пункт</li>
+  </ol>
+
+  <p><b>Прописные буквы латинского алфавита</b></p>
+  <ol type="A">
+    <li>Первый пункт</li>
+    <li>Второй пункт</li>
+    <li>Третий пункт</li>
+  </ol>
+
+  <p><b>Строчные буквы латинского алфавита</b></p>
+  <ol type="a">
+    <li>Первый пункт</li>
+    <li>Второй пункт</li>
+    <li>Третий пункт</li>
+  </ol>
+
+  <p><b>Римские числа в верхнем регистре</b></p>
+  <ol type="I">
+    <li>Первый пункт</li>
+    <li>Второй пункт</li>
+    <li>Третий пункт</li>
+  </ol>
+
+  <p><b>Римские числа в нижнем регистре</b></p>
+  <ol type="i">
+    <li>Первый пункт</li>
+    <li>Второй пункт</li>
+    <li>Третий пункт</li>
+  </ol>
+
+  <h3>Многоуровневый список</h3>
+  <ul>
+    <li>Первый пункт
+      <ul>
+      <li>Первый подпункт</li>
+      <li>Второй подпункт</li>
+      <li>Третий подпункт</li>
+      </ul>
+    </li>
+    <li>Второй пункт</li>
+    <li>Третий пункт</li>
+  </ul>
+
+  <h2 id="gypers">Гиперссылки <a href="#toc">&uarr;</a></h2>
+  <h3 id="list">Переход на другую страницу </h3>
+  <a href="new2.html">Ссылка</a> 
+
+  <h3 id="zakl">Закладка</h3>
+  <p name="zakl"><a href="#zakl2">Закладка</a></p>
+
+  <h3 id="zakl1">Переход на закладку</h3>
+  <a href="#perehod">Переход на закладку</a>
+</body>
+</html>
