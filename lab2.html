@@ -1,0 +1,445 @@
+<!DOCTYPE
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Практическое занятие №2</h1>
+  <h2 id="toc">Содержание</h2>
+<ol>
+  <li><a href="#table">Таблица</a></li>
+  <li><a href="#tablecenter">Таблица по центру страницы</a></li>
+  <li><a href="#ramki">Рамки</a>
+    <ol>
+      <li><a href="#ramki1">Таблица без рамки</a></li>
+      <li><a href="#ramki2">Таблица с рамкой шириной 10</a></li>
+      <li><a href="#ramki3">Расстояние между рамкой и содержимым ячейки</a></li>
+      <li><a href="#ramki4">Расстояние между внешними границами ячеек</a></li>
+      <li><a href="#ramki5">Таблица с тонкой рамкой</a></li>
+    </ol>
+  </li>
+  <li><a href="#wehi">Ширина и высота таблицы</a></li>
+  <li><a href="#bgr">Цвет фона таблицы</a></li>
+  <li><a href="#align">Выравнивание</a></li>
+  <li><a href="#colrow">Объединение ячеек</a></li>
+  <li><a href="#background">Цвет фона каждой ячейки</a></li>
+  <li><a href="#nametable">Заголовок таблицы</a>
+    <ol>
+      <li><a href="#top">Сверху</a></li>
+      <li><a href="#bottom">Снизу</a></li>
+    </ol>
+  </li>
+  <li><a href="#namest">Заголовки столбцов</a></li>
+  <li><a href="#tablefinish">Таблица</a></li>
+</ol>
+
+<h2 id="table">Таблица<a href="#toc">&uarr;</a></h2>
+
+<table border="1">
+  <tr>
+    <td>a</td>
+    <td>b</td>
+    <td>c</td>
+  </tr>
+  <tr>
+    <td>d</td>
+    <td>e</td>
+    <td>f</td>
+  </tr>
+</table>
+
+<h2 id="tablecenter">Таблица по центру страницы<a href="#toc">&uarr;</a></h2>
+
+<table border="1" align="center">
+  <tr>
+    <td>a</td>
+    <td>b</td>
+    <td>c</td>
+  </tr>
+  <tr>
+    <td>d</td>
+    <td>e</td>
+    <td>f</td>
+  </tr>
+</table>
+
+<h2 id="ramki">Рамка<a href="#toc">&uarr;</a></h2>
+
+<h3 id="ramki1">Таблица без рамки</h3>
+
+<table>
+  <tr>
+    <td>a</td>
+    <td>b</td>
+    <td>c</td>
+  </tr>
+  <tr>
+    <td>d</td>
+    <td>e</td>
+    <td>f</td>
+  </tr>
+</table>
+
+<h3 id="ramki2">Таблица с рамкой шириной 10</h3>
+
+<table border="10">
+  <tr>
+    <td>Ячейка 1</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейка 3</td>
+    <td>Ячейка 4</td>
+  </tr>
+</table>
+
+<h3 id="ramki3">Расстояние между рамкой и содержимым ячейки</h3>
+
+<table border="1" cellpadding="10">
+  <tr>
+    <td>a</td>
+    <td>b</td>
+    <td>c</td>
+  </tr>
+  <tr>
+    <td>d</td>
+    <td>e</td>
+    <td>f</td>
+  </tr>
+</table>
+
+<h3 id="ramki4">Расстояние между внешнисми границами ячеек</h3>
+
+<table border="1" cellspacing="10">
+  <tr>
+    <td>a</td>
+    <td>b</td>
+    <td>c</td>
+  </tr>
+  <tr>
+    <td>d</td>
+    <td>e</td>
+    <td>f</td>
+  </tr>
+</table>
+
+<h3 id="ramki5">Таблица с тонкой рамкой</h3>
+
+<table border="1" cellpadding="10" cellspacing="0">
+  <tr>
+    <td>a</td>
+    <td>b</td>
+    <td>c</td>
+  </tr>
+  <tr>
+    <td>d</td>
+    <td>e</td>
+    <td>f</td>
+  </tr>
+</table>
+
+<h2 id="wehi">Ширина и высота таблицы<a href="#toc">&uarr;</a></h2>
+
+<h3>Ширина таблицы 50%</h3>
+
+<table border="1" width="50%">
+  <tr>
+    <td>Ширина таблицы=50%</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейка 3</td>
+    <td>Ячейка 4</td>
+  </tr>
+</table>
+
+<h3>Ширина таблицы 100%</h3>
+
+<table border="1" width="100%">
+  <tr>
+    <td>Ширина таблицы=100%</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейка 3</td>
+    <td>Ячейка 4</td>
+  </tr>
+</table>
+
+<h3>Высота таблицы</h3>
+
+<table border="1" height="50%">
+  <tr>
+    <td>Высота таблицы=50%</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейка 3</td>
+    <td>Ячейка 4</td>
+  </tr>
+</table>
+
+<h2 id="bgr">Цвет фона таблицы<a href="#toc">&uarr;</a></h2>
+
+<table border="1" width="70%" bgcolor="red">
+  <tr>
+    <td>Ячейка 1</td>
+    <td>Ячейка 2</td>
+  </tr>
+  <tr>
+    <td>Ячейка 3</td>
+    <td>Ячейка 4</td>
+  </tr>
+</table>
+
+<h2 id="align">Выравнивание<a href="#toc">&uarr;</a></h2>
+
+<h3>Строки по горизонтали</h3>
+
+<table align="left|center|right" border="1" width="90%" cellpadding="10" cellspacing="0" >
+  <tr>
+    <td align="center">Выравнивание строки по центру</td>
+    <td align="center">ячейка2</td>
+    <td align="center">ячейка3</td>
+  </tr>
+  <tr>
+    <td align="right">Выравнивание строки справа</td>
+    <td align="right">ячейка2</td>
+    <td align="right">ячейка3</td>
+  </tr>
+  <tr>
+    <td align="left">Выравнивание строки слева</td>
+    <td align="left">ячейка2</td>
+    <td align="left">ячейка3</td>
+  </tr>
+</table>
+
+<h3>Строки по вертикали</h3>
+
+<table valign="bottom|top|middle|baseline" border="1" width="90%" cellpadding="40" cellspacing="0" >
+  <tr valign="">
+    <td align="center">Выравнивание строки по центру</td>
+    <td align="center">ячейка2</td>
+    <td align="center">ячейка3</td>
+  </tr>
+  <tr>
+    <td valign="top" height="100">Выравнивание строки сверху</td>
+    <td valign="top" height="100">ячейка2</td>
+    <td valign="top" height="100">ячейка3</td>
+  </tr>
+  <tr>
+    <td valign="bottom" height="100">Выравнивание строки снизу</td>
+    <td valign="bottom" height="100">ячейка2</td>
+    <td valign="bottom" height="100">ячейка3</td>
+  </tr>
+</table>
+
+<h3>Ячеек по горизонтали</h3>
+
+<table border="1" width="90%" cellpadding="5" cellspacing="0" >
+  <tr>
+    <td align="right">Выравнивание ячейки справа</td>
+    <td  align="center">Выравнивание ячейки по центру</td>
+    <td>Выравнивание по умолчанию</td>
+  </tr>
+</table>
+
+<h3>Ячеек по вертикали</h3>
+
+<table border="1" width="90%" cellpadding="5" cellspacing="0">
+  <tr>
+    <td valign="top" height="100">Выравнивание ячейки сверху</td>
+    <td valign="bottom">Выравнивание ячейки снизу</td>
+    <td>Выравнивание по умолчанию</td>
+  </tr>
+</table>
+
+<h2 id="colrow">Объединение ячеек<a href="#toc">&uarr;</a></h2>
+
+<h3>По вертикали</h3>
+
+<table border="1">
+  <tr>
+    <td rowspan="2">Ячейка1</td>
+    <td>Ячейка2</td>
+    <td>Ячейка3</td>
+  </tr>
+  <tr>
+    <td>Ячейка4</td>
+    <td>Ячейка5</td>
+  </tr>
+</table>
+
+<h3>По горизонтали</h3>
+
+<table border="1">
+  <tr>
+    <td>Ячейка1</td>
+    <td colspan="2">Ячейка2</td>
+  </tr>
+  <tr>
+    <td>Ячейка3</td>
+    <td>Ячейка4</td>
+    <td>Ячейка5</td>
+  </tr>
+</table>
+
+<h2 id="background">Цвет фона каждой ячейки<a href="#toc">&uarr;</a></h2>
+
+<table border="1" width="40%">
+  <tr>
+    <td bgcolor="#df4cbe">Фон ячейки1</td>
+    <td bgcolor="#f2f043">Фон ячейки2</td>
+  </tr>
+  <tr>
+    <td bgcolor="#67a8ac">Фон ячейки 3</td>
+    <td bgcolor="#67a8ac">Фон ячейки 4</td>
+  </tr>
+</table>
+
+<h2 id="nametable">Заголовок таблицы<a href="#toc">&uarr;</a></h2>
+
+<h3 id="top">Сверху</h3>
+
+<table border="1">
+  <caption align="top">Заголовок таблицы</caption>
+  <tr>
+    <td><b>Заголовок1</b></td>
+    <td><b>Заголовок2</b></td>
+    <td><b>Заголовок3</b></td>
+  </tr>
+  <tr>
+    <td>ячейка1</td>
+    <td>ячейка2</td>
+    <td>ячейка3</td>
+  </tr>
+</table>
+
+<h3 id="bottom">Снизу</h3>
+
+<table border="1">
+  <caption align="bottom">Заголовок таблицы</caption>
+  <tr>
+    <td><b>Заголовок1</b></td>
+    <td><b>Заголовок2</b></td>
+    <td><b>Заголовок3</b></td>
+  </tr>
+  <tr>
+    <td>ячейка1</td>
+    <td>ячейка2</td>
+    <td>ячейка3</td>
+  </tr>
+</caption>
+</table>
+
+<h2 id="namest">Заголовки столбцов<a href="#toc">&uarr;</a></h2>
+
+<table border="1">
+  <tr><th>head1</th><th>head2</th><th>head3</th></tr>
+  <tr>
+    <td>a</td>
+    <td>b</td>
+    <td>c</td>
+  </tr>
+  <tr>
+    <td>d</td>
+    <td>e</td>
+    <td>f</td>
+  </tr>
+</table>
+
+<h2 id="tablefinish">Таблица<a href="#toc">&uarr;</a></h2>
+
+<table border="1" width="100%">
+  <tr>
+    <th rowspan="3">Циклы дисциплин</th>
+    <th colspan="4">Объем фонда учебной и учебно-методической литературы (количество)</th>
+    <th colspan="2">Реальная обеспеченность литературой</th>
+    <th colspan="2">Степень новизны учебной литературы</th>
+    <th colspan="4">Количество содержания литературы</th>
+  </tr>
+  <tr>
+    <th colspan="2">Учебная</th>
+    <th colspan="2">Учебно-методическая</th>
+    <th rowspan="2">Учебная</th>
+    <th rowspan="2">Учебно-методическая</th>
+    <th rowspan="2">Учебная</th>
+    <th rowspan="2">Учебно-методическая</th>
+    <th colspan="2">Учебная</th>
+    <th colspan="2">Учебно-методическая</th>
+  </tr>
+  <tr>
+    <th>Названий</th>
+    <th>Экз.</th>
+    <th>Названий</th>
+    <th>Экз.</th>
+    <th>Всего</th>
+    <th>Вышедших за последние 10(5) лет</th>
+    <th>Всего</th>
+    <th>Вышедших за последние 10(5) лет</th>
+  </tr>
+  <tr align="center">
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr align="center">
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr align="center">
+    <th>Общепрофессиональные и специальные</th>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr align="center">
+    <th>Все дисциплины</th>
+    <td>72</td>
+    <td>626</td>
+    <td>37</td>
+    <td>54</td>
+    <td>8.34</td>
+    <td>0.72</td>
+    <td>98</td>
+    <td>100</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+</table>
+</body>
+</html>
