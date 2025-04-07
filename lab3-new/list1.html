@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа №3</title>
+</head>
+<body>
+    <ol>
+        <li id="toc">Содержание</li>
+        <li><a href="#1">Изображения</a>
+            <ol type="a">
+                <li><a href="#2">Изображение без дополнительных параметров</a></li>
+                <li><a href="#3">Изображение с установленным размером</a></li>
+                <li><a href="#4">Изображение со всплывающей подсказкой</a></li>
+                <li><a href="#5">Изображение с рамкой</a></li>
+            </ol>
+        </li>
+        <li><a href="#6">Выравнивание относительно текста</a>
+            <ol type="a">
+                <li><a href="#7">Текст вверху изображения</a></li>
+                <li><a href="#8">Текст по центру изображения</a></li>
+                <li><a href="#9">Текст внизу изображения</a></li>
+                <li><a href="#10">Выравнивание на странице</a></li>
+            </ol>
+        </li>
+        <li><a href="#11">Аудиозапись</a></li>
+        <ol type="a">
+            <li><a href="#12">Аудиозапись с панелью управления</a></li>
+            <li><a href="#13">Аудиозапись с зацикливанием</a></li>
+            <li><a href="#14">Аудиозапись с автозапуском</a></li>
+        </ol>
+        <li><a href="#15">Видеозапись</a>
+        <ol type="a">
+            <li><a href="#16">Видеозапись с панелью управления</a></li>
+            <li><a href="#17">Видеозапись субтитрами</a></li>
+            <li><a href="#18">Видеозапись с установленным изображением</a></li>
+        </ol>
+        </li>
+        <li id="19">Навигация</li>
+    </ol>
+
+    <h2 id="1">Изображения <a href="#toc">&uarr;</a></h2>
+
+    <h3 id="2">Изображение без дополнительных параметров</h3>
+    <img src="img/pic.jpeg" alt="Картинка кошки">
+
+    <h3 id="3">Изображение с установленным размером</h3>
+    <img src="img/pic.jpeg" alt="Картинка кошки" width="195" height="157">
+
+    <h3 id="4">Изображение со всплывающей подсказкой</h3>
+    <img src="img/pic.jpeg" alt="Картинка кошки" width="250" height="200"  title="Вы навели курсор на картинку кошки">
+
+    <h3 id="5">Изображение с рамкой</h3>
+    <img src="img/pic.jpeg" alt="Картинка кошки" width="250" height="200" border="3">
+
+    <h2 id="6">Выравнивание относительно текста <a href="#toc">&uarr;</a></h2>
+
+    <h3 id="7">Текст вверху изображения</h3>
+    <p> Фотография кошки<img src="img/pic.jpeg" alt="Картинка кошки" width="250" height="200" align="top"></p>
+
+    <h3 id="8">Текст по центру изображения</h3>
+    <p> Фотография кошки<img src="img/pic.jpeg" alt="Картинка кошки" width="250" height="200" align="center"></p>
+
+    <h3 id="9">Текст внизу изображения</h3>
+    <p> Фотография кошки<img src="img/pic.jpeg" alt="Картинка кошки" width="250" height="200" align="bottom"></p>
+
+    <h3 id="10">Выравнивание на странице</h3>
+    <p> Фотография кошки<img src="img/pic.jpeg" alt="Картинка кошки" width="250" height="200"></p>
+
+    <h2 id="11">Аудиозапись <a href="#toc">&uarr;</a></h2>
+
+    <h3 id="12">Аудиозапись с панелью управления</h3>
+    <audio src="audio/muz.mp3" controls="controls"></audio>
+
+    <h3 id="13">Аудиозапись с зацикливанием</h3>
+    <audio src="audio/muz.mp3" controls="controls" loop="loop"></audio>
+
+    <h3 id="14">Аудиозапись с автозапуском</h3>
+    <audio src="audio/muz.mp3" autoplay="autoplay" controls="controls"></audio>
+
+    <h2 id="15">Видеозапись <a href="#toc">&uarr;</a></h2>
+
+    <h3 id="16">Видеозапись с панелью управления</h3>
+    <video src="video/video.mp4" controls="controls" width="300" height="250"></video>
+
+    <h3 id="17">Видеозапись субтитрами</h3>
+    <video controls="controls" width="300" height="250">
+        <source src="video/lapenko.mp4" type="video/mp4">
+        <track kind="subtitles" src="video/lap.vvt" srclang="ru" label="Русский">
+    </video>
+
+    <h3 id="18">Видеозапись с установленным изображением</h3>
+    <video controls="controls" width="300" height="250" poster="img/lap.jpeg">
+        <source src="video/lapenko.mp4" type="video/mp4">
+    </video>
+
+    <h2><a href="#19">Навигация</a></h2>
+    
+</body>
+</html>
