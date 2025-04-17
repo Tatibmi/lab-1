@@ -147,18 +147,4 @@ main {
         flex-wrap: nowrap; 
     }
 
-    .column-1 {
-        width: 30%;
-    }
-
-    .column-2 {
-        width: 35%;
-    }
-
-    .column-3 {
-        width: 35%;
-    }
-
-    
-
 }
