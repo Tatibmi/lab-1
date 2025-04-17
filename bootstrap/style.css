@@ -2,20 +2,28 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     margin: 0;
+    padding-top: 50px;
 }
 
-.header {
+nav {
     background-color: #8c7fff;
-    justify-content: space-between;
-    padding: 10px 20px;
-    width: 100%;
-    box-sizing: border-box;
+    
 }
 
-.header img {
-    max-width: 50px;
-    height: auto;
-}
+.logo {
+    height: 100%; /* по высоте панели */
+    max-height: 60px; /* ограничение на всякий случай */
+    width: auto;
+    
+  }
+  
+  .navbar-title {
+    font-size: 14px; /* или любой другой размер */
+    font-weight: bold;
+  }
+  
+
+
 
 .header h1 {
     color: #add8e6;
@@ -114,6 +122,8 @@ main {
     main {
         padding: 20px;
     }
+
+    
 
     .block1 {
         flex-direction: row; 
